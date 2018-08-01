@@ -1,0 +1,26 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.zt{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    box-sizing:border-box;
+}
+.left{
+    height:100%; 
+    width:calc(100% - 500px);
+    float:left;   
+    background-color:lightgray;
+    box-sizing:border-box;
+
+}
+.right{
+    width:500px;
+    height:100%;
+    float:left;
+    background-color:lightcyan;
+    box-sizing:border-box;
+}

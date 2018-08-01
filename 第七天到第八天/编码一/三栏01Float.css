@@ -1,0 +1,33 @@
+﻿/*此种方法中html中的代码，中间定义必须在左列右列的下面，才有效果*/
+html,body{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+.zt{
+    width:100%;
+    height:100%;
+    overflow:auto;
+    box-sizing:border-box;
+}
+.left{
+    width:200px;
+    height:100%;
+    float:left;
+    background-color:lightgray;
+    box-sizing:border-box;
+}
+.center{
+    width:calc(100% - 400px);
+    height:100%;
+    float:left;
+    background-color:rgb(233, 224, 255);
+    box-sizing:border-box;
+}
+.right{
+    width:200px;
+    height:100%;
+    float:left;
+    background-color:lightcyan;
+    box-sizing:border-box;
+}
